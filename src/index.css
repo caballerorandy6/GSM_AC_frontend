@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gold {
+  color: #cbb26a;
+}
+
+.background-image {
+  background-image: url(/public/main.webp);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.background-image-contact {
+  background-image: url(/public/worker3.webp);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.background-rgba {
+  background-image: transparent;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.hover-gold:hover {
+  background-color: #cbb26a;
+}
+
+.bg-img {
+  background-image: linear-gradient(
+    to right,
+    rgb(0 0 0 / 0.5),
+    rgb(0 0 0 / 0.6)
+  );
+}
+
+.gold-hover:hover {
+  color: #cbb26a;
+}
+
+.border {
+  border: 2px solid #cbb26a;
+}
+
+.border:hover {
+  border: 2px solid #cbb26a;
+}
+
+.margin-bottom-gold {
+  margin-bottom: #cbb26a;
+}
+
+/* Carousel */
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
