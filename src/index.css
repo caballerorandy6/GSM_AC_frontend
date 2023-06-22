@@ -16,6 +16,11 @@
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.background-image-ACI {
+  background-image: url(/public/worker3.webp);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .background-rgba {
   background-image: transparent;
   background-color: rgba(0, 0, 0, 0.9);

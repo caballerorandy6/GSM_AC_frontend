@@ -33,7 +33,7 @@ const Nav = () => {
         </p>
       </Link>
 
-      <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
+      {/* <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
         <div className="dropdown">
           <label
             tabIndex={0}
@@ -89,12 +89,12 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Horizontal Menu */}
       <nav className="navbar-center hidden lg:flex w-6/12 lg:justify-center">
-        <div className="flex items-center justify-center mx-auto gap-4 sm:gap-8 font-bold text-xs sm:text-lg w-9/12 lg:text-2xl">
-          <div className="flex items-center gap-2">
+        <ul className="flex items-center justify-center mx-auto gap-4 sm:gap-8 font-bold text-xs sm:text-lg w-9/12 lg:text-2xl">
+          <li className="flex items-center gap-2">
             <LinkScroll
               to="hero"
               spy={true}
@@ -102,13 +102,13 @@ const Nav = () => {
               offset={50}
               duration={500}
               className={`${
-                location.pathname === "home" ? "gold" : ""
+                location.pathname === "home" ? "text-gray-500" : ""
               }text-indigo-600 gold-hover transition-colors`}
             >
               Home
             </LinkScroll>
-          </div>
-          <div className="flex items-center gap-2">
+          </li>
+          <li className="flex items-center gap-2">
             <LinkScroll
               to="about-us"
               spy={true}
@@ -121,8 +121,8 @@ const Nav = () => {
             >
               About
             </LinkScroll>
-          </div>
-          <div className="flex items-center gap-2">
+          </li>
+          <li className="flex items-center gap-2">
             <LinkScroll
               to="services"
               spy={true}
@@ -137,8 +137,8 @@ const Nav = () => {
             >
               Services
             </LinkScroll>
-          </div>
-          <div className="flex items-center gap-2">
+          </li>
+          <li className="flex items-center gap-2">
             <LinkScroll
               to="contact"
               spy={true}
@@ -147,14 +147,14 @@ const Nav = () => {
               duration={500}
               className={
                 location.pathname === "contact"
-                  ? "gold gold-hover"
+                  ? ""
                   : "text-indigo-600 gold-hover transition-colors"
               }
             >
               Contact
             </LinkScroll>
-          </div>
-        </div>
+          </li>
+        </ul>
       </nav>
     </div>
   );

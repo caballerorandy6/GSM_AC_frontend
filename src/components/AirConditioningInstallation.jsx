@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AirConditioningInstallation = () => {
   return (
     <section id="air-conditioning-installation" className="w-full">
@@ -6,7 +8,10 @@ const AirConditioningInstallation = () => {
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
       <div>
-        <p>
+        <div className="background-image-ACI bg-cover w-4/12 h-80 mx-auto mt-10">
+          <div className="pb-80 object-cover bg-img rounded-lg "></div>
+        </div>
+        <p className="text-black/70 mt-4 mb-4">
           You should not delay when it comes to replacing your old and damaged
           air conditioning system. Doing so means you are going to end up
           spending more money on recurring repairs and potentially more damage.
@@ -19,17 +24,21 @@ const AirConditioningInstallation = () => {
           replacement services are just a call away from the property owners in
           the Cypress, TX area.
         </p>
-        <h3>When Replacing an AC System</h3>
-        Air conditioning systems can be tricky to deal with, especially if you
-        have no experience whatsoever. You need the expertise and proper
-        training as well as the right tools in order to successfully replace an
-        air conditioning system. It can get quite overwhelming planning the
-        entire replacement process. So, you should leave the job to
-        professionals like us. We can determine which air conditioning system
-        will work best for your home or workplace, and we&apos;ll handle the
-        replacement process from start to end.
-        <h3>We Can Replace Air Conditioning Systems!</h3>
-        <p>
+        <h3 className="gold font-bold text-xl">When Replacing an AC System</h3>
+        <p className="text-black/70 mb-4">
+          Air conditioning systems can be tricky to deal with, especially if you
+          have no experience whatsoever. You need the expertise and proper
+          training as well as the right tools in order to successfully replace
+          an air conditioning system. It can get quite overwhelming planning the
+          entire replacement process. So, you should leave the job to
+          professionals like us. We can determine which air conditioning system
+          will work best for your home or workplace, and we&apos;ll handle the
+          replacement process from start to end.
+        </p>
+        <h3 className="gold font-bold text-xl">
+          We Can Replace Air Conditioning Systems!
+        </h3>
+        <p className="text-black/70 mb-4">
           Our air conditioning replacement service is all about using the right
           tools and following the correct procedures so that the new air
           conditioning system will be installed according to industry standards.
@@ -41,10 +50,17 @@ const AirConditioningInstallation = () => {
           sure we double-check our work for accuracy. If your air conditioning
           system is too old, you know who to call for a successful replacement.
         </p>
-        <p>
+        <p className="text-black/70 mb-4">
           When it comes to affordable AC replacement services in Cypress, TX,
           you can always rely on G S M A/C & General Contractor INC.. To book
-          our services, feel free to call us at (281) 223-5020 today!
+          our services, feel free to call us at{" "}
+          <Link
+            className="text-indigo-500 hover:text-indigo-600"
+            to="tel: +12812235020"
+          >
+            (281) 223-5020
+          </Link>{" "}
+          today!
         </p>
       </div>
     </section>
