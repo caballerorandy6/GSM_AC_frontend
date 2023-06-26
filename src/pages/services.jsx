@@ -189,7 +189,7 @@ const Services = () => {
       </div>
       <div className="w-10/12 mx-auto p-8 my-8 rounded-lg shadow-lg bg-gray-50">
         <div className="my-8">
-          <h3 className="gold text-2xl mb-2">Capable Specialists</h3>
+          <h3 className="text-[#cbb26a] text-2xl mb-2">Capable Specialists</h3>
           <p className="text-black/70 text-base">
             At G S M A/C & General Contractor INC., we use innovative techniques
             and state-of-the-art equipment to correctly carry out
@@ -204,7 +204,7 @@ const Services = () => {
         </div>
 
         <div className="mb-8">
-          <h3 className="gold text-2xl mb-2">
+          <h3 className="text-[#cbb26a] text-2xl mb-2">
             Superior Customer Service Since 2005
           </h3>
           <p className="text-black/70 text-base">
@@ -228,7 +228,7 @@ const Services = () => {
         </div>
 
         <div className="mb-8">
-          <h3 className="gold text-2xl mb-2">
+          <h3 className="text-[#cbb26a] text-2xl mb-2">
             Call us at{" "}
             <Link className="text-blue-600 text-lg" to="+12812235020">
               (281) 223-5020
