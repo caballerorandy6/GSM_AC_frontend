@@ -20,11 +20,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Installation
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
@@ -50,11 +46,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Repair
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
@@ -79,11 +71,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Heating Installation
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
@@ -109,11 +97,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Heating Repair
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
@@ -139,11 +123,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Air Duct Sanitizing
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
@@ -169,11 +149,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Attic Insulation
                 </p>
-                <Link
-                  to="all-services"
-                  target="_blank"
-                  className="btn btn-link"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
