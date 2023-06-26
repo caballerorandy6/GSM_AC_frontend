@@ -43,9 +43,9 @@ const ReviewForm = ({ reviews, setReviews }) => {
   }, [setReviews]);
 
   return (
-    <div className="w-10/12 md:w-full h-full mx-auto border p-6 sm:p-8 rounded-md shadow-lg mb-4 bg-opacity-70">
+    <div className="w-10/12 md:w-full h-full mx-auto border-[#cbb26a] border-2 p-6 sm:p-8 rounded-md shadow-lg mb-4 bg-opacity-70">
       <div className="flex flex-col">
-        <h1 className="text-center text-xl gold text-opacity-90 sm:text-2xl mb-2 sm:mb-4 font-semibold uppercase">
+        <h1 className="text-center text-xl text-[#cbb26a] text-opacity-90 sm:text-2xl mb-2 sm:mb-4 font-semibold uppercase">
           Submit your review!
         </h1>
 
@@ -192,7 +192,7 @@ const ReviewForm = ({ reviews, setReviews }) => {
 
           <input
             type="submit"
-            className="btn btn-primary w-full mt-8 bg-white hover-gold text-black font-bold bg-opacity-80 border  hover:border-none transition-colors"
+            className="btn w-full mt-8 bg-white hover:bg-[#cbb26a] text-black font-bold bg-opacity-80 border-[#cbb26a] border-2 hover:border-[#cbb26a] focus:outline-none transition-colors"
             value="Submit Review"
           />
         </form>

@@ -35,7 +35,7 @@ const Form = () => {
   return (
     <div className="w-10/12 md:w-full h-full mx-auto border-2 border-white/60 p-6 sm:p-8 rounded-md shadow mb-4 bg-opacity-70">
       <div className="flex flex-col">
-        <h1 className="text-center text-xl gold text-opacity-90 sm:text-2xl mb-2 sm:mb-4 font-semibold">
+        <h1 className="text-center text-xl text-[#cbb26a] text-opacity-90 sm:text-2xl mb-2 sm:mb-4 font-semibold">
           GET A FREE ESTIMATE!
         </h1>
         <form
@@ -58,7 +58,7 @@ const Form = () => {
             })}
             type="text"
             placeholder="Full Name:"
-            className="text-white w-full border-b-2 bg-transparent focus:outline-none active:bg-transparent p-2 placeholder-white placeholder-opacity-75"
+            className="text-white w-full border-b-2 bg-transparent focus:outline-none active:bg-transparent p-2   placeholder-white placeholder-opacity-75"
           />
           <Alert>{errors?.name?.message}</Alert>
           {errors?.name?.length < 2 ? (

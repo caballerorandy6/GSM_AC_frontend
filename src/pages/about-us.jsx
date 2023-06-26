@@ -1,30 +1,22 @@
 const AboutUs = () => {
   return (
     <section id="about-us">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl gold font-bold pt-14">
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-14">
         About Our HVAC Repair & Installation Company
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
 
-      <ul className="mx-auto md:flex md:w-6/12 xl:flex-row xl:w-full xl:justify-center xl:items-center text-center flex-col gap-2 mt-10 text-lg lg:text-xl">
-        <li className="text-indigo-700 font-semibold">
+      <div className="mx-auto w-10/12 flex gap-4 text-center flex-col mt-10 text-xl">
+        <p className="text-indigo-600 font-semibold">
           Air Conditioning Installation
-        </li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">
-          Air Conditioning Repair
-        </li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">Heating Installation</li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">Heating Repair</li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">Air Duct Cleaning</li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">Air Duct Sanitizing</li>
-        <div className="divider lg:divider-horizontal hidden xl:flex">|</div>
-        <li className="text-indigo-700 font-semibold">Attic Insulation</li>
-      </ul>
+        </p>
+        <p className="text-indigo-600 font-semibold">Air Conditioning Repair</p>
+        <p className="text-indigo-600 font-semibold">Heating Installation</p>
+        <p className="text-indigo-600 font-semibold">Heating Repair</p>
+        <p className="text-indigo-600 font-semibold">Air Duct Cleaning</p>
+        <p className="text-indigo-600 font-semibold">Air Duct Sanitizing</p>
+        <p className="text-indigo-600 font-semibold">Attic Insulation</p>
+      </div>
 
       <div className="w-10/12 sm:w-8/12 md:w-8/12 bg-opacity-30 mx-auto shadow-lg rounded lg:mt-10 mb-10 p-4">
         <p className="w-full text-black/70 text-base mx-auto p-4">

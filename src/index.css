@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.gold {
-  color: #cbb26a;
-}
-
 .background-image {
   background-image: url(/public/main.webp);
   background-color: rgba(0, 0, 0, 0.9);
@@ -36,22 +32,6 @@
     rgb(0 0 0 / 0.5),
     rgb(0 0 0 / 0.6)
   );
-}
-
-.gold-hover:hover {
-  color: #cbb26a;
-}
-
-.border {
-  border: 2px solid #cbb26a;
-}
-
-.border:hover {
-  border: 2px solid #cbb26a;
-}
-
-.margin-bottom-gold {
-  margin-bottom: #cbb26a;
 }
 
 /* Carousel */

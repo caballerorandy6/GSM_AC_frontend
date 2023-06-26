@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <section id="services" className="w-full overflow-y-scroll">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl gold font-bold pt-10">
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
         What Are Our Services
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
@@ -17,7 +17,7 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">
+                <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Installation
                 </p>
                 <Link
@@ -47,7 +47,7 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">
+                <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Repair
                 </p>
                 <Link
@@ -76,7 +76,9 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">Heating Installation</p>
+                <p className="text-[#cbb26a] text-xl font-bold">
+                  Heating Installation
+                </p>
                 <Link
                   to="all-services"
                   target="_blank"
@@ -104,7 +106,9 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">Heating Repair</p>
+                <p className="text-[#cbb26a] text-xl font-bold">
+                  Heating Repair
+                </p>
                 <Link
                   to="all-services"
                   target="_blank"
@@ -132,7 +136,9 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">Air Duct Sanitizing</p>
+                <p className="text-[#cbb26a] text-xl font-bold">
+                  Air Duct Sanitizing
+                </p>
                 <Link
                   to="all-services"
                   target="_blank"
@@ -160,7 +166,9 @@ const Services = () => {
             />
             <div className="px-6 py-4">
               <div className="mb-2 flex items-center lg:justify-between flex-col lg:flex-row">
-                <p className="gold text-xl font-bold">Attic Insulation</p>
+                <p className="text-[#cbb26a] text-xl font-bold">
+                  Attic Insulation
+                </p>
                 <Link
                   to="all-services"
                   target="_blank"

@@ -1,5 +1,5 @@
 const HeatingRepair = () => {
-  return <div>HeatingRepair</div>;
+  return <section id="heating-repair">HeatingRepair</section>;
 };
 
 export default HeatingRepair;

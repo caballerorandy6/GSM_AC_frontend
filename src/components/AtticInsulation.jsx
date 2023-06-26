@@ -1,5 +1,5 @@
 const AtticInsulation = () => {
-  return <div>AtticInsulation</div>;
+  return <section id="attic-insulation">AtticInsulation</section>;
 };
 
 export default AtticInsulation;

@@ -5,17 +5,17 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="background-image-contact bg-cover object-cover min-h-screen"
+      className="background-image-contact bg-cover object-cover"
     >
-      <div className="bg-img pb-10 min-h-screen">
-        <h1 className="text-center lg:text-4xl md:text-3xl text-2xl gold font-bold pt-10">
+      <div className="bg-img pb-10">
+        <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
           Call Us Now!
         </h1>
         <div className="w-96 content-none mx-auto h-1 mt-4 bg-white bg-opacity-90"></div>
 
         <div className="sm:flex items-center justify-center sm:p-4 w-full mx-auto">
           <div className="sm:flex flex-col sm:w-5/12 md:6/12 lg:w-7/12 items-center">
-            <p className="text-base md:text-base lg:text-lg text-center lg:text-start text-white text-opacity-90 p-4 mx-auto w-10/12">
+            <p className="text-base text-center lg:text-start text-white text-opacity-90 p-4 mx-auto w-10/12">
               Call now to schedule an appointment. At G S M A/C & General
               Contractor INC., we take pride in offering quality HVAC services
               suitable for residential and commercial projects. We can install
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
 
             <div className="w-10/12 mx-auto mt-4 text-center">
-              <h3 className="text-lg sm:text-xl lg:text-2xl gold font-bold w-full">
+              <h3 className="text-lg sm:text-xl lg:text-2xl text-[#cbb26a] font-bold w-full">
                 G S M A/C & General Contractor INC.
               </h3>
               <p className="p-2 text-white text-opacity-80">

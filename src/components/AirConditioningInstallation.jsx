@@ -2,16 +2,19 @@ import { Link } from "react-router-dom";
 
 const AirConditioningInstallation = () => {
   return (
-    <section id="air-conditioning-installation" className="w-full">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl gold font-bold pt-10">
+    <section
+      id="air-conditioning-installation"
+      className="w-10/12 mx-auto min-h-screen pb-10 pt-32"
+    >
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
         Take Advantage of Our Affordable AC Replacement Services Today!
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
       <div>
-        <div className="background-image-ACI bg-cover w-4/12 h-80 mx-auto mt-10">
-          <div className="pb-80 object-cover bg-img rounded-lg "></div>
+        <div className="background-image-ACI bg-cover w-6/12 h-80 mx-auto mt-10 rounded-lg">
+          <div className="pb-80 object-cover w-6/12"></div>
         </div>
-        <p className="text-black/70 mt-4 mb-4">
+        <p className="text-black/70 mt-10 mb-4">
           You should not delay when it comes to replacing your old and damaged
           air conditioning system. Doing so means you are going to end up
           spending more money on recurring repairs and potentially more damage.
@@ -24,7 +27,9 @@ const AirConditioningInstallation = () => {
           replacement services are just a call away from the property owners in
           the Cypress, TX area.
         </p>
-        <h3 className="gold font-bold text-xl">When Replacing an AC System</h3>
+        <h3 className="text-[#cbb26a] font-bold text-xl">
+          When Replacing an AC System
+        </h3>
         <p className="text-black/70 mb-4">
           Air conditioning systems can be tricky to deal with, especially if you
           have no experience whatsoever. You need the expertise and proper
@@ -35,7 +40,7 @@ const AirConditioningInstallation = () => {
           will work best for your home or workplace, and we&apos;ll handle the
           replacement process from start to end.
         </p>
-        <h3 className="gold font-bold text-xl">
+        <h3 className="text-[#cbb26a] font-bold text-xl">
           We Can Replace Air Conditioning Systems!
         </h3>
         <p className="text-black/70 mb-4">

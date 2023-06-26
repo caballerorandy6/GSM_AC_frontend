@@ -7,7 +7,7 @@ const Nav = () => {
   const location = useLocation();
 
   return (
-    <div className="flex fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
+    <nav className="flex navbar fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
       <LinkScroll
         to="hero"
         spy={true}
@@ -23,17 +23,7 @@ const Nav = () => {
         />
       </LinkScroll>
 
-      <Link
-        className="btn btn-primary text-center justify-center items-center flex gap-2"
-        to="tel: +12812235020"
-      >
-        <PhoneIcon />
-        <p className="text-sm lg:text-lg hidden sm:block">
-          Call now +1 (281) 223-5020
-        </p>
-      </Link>
-
-      {/* <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
+      <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
         <div className="dropdown">
           <label
             tabIndex={0}
@@ -56,44 +46,61 @@ const Nav = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box text-white sm:text-lg"
           >
             <li>
-              <LinkScroll to="/" id="home">
+              <LinkScroll
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Home
               </LinkScroll>
             </li>
             <li>
-              <LinkScroll to="about" id="about">
+              <LinkScroll
+                to="about-us"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className={`${location.pathname === "about-us" ? "gold" : ""}`}
+              >
                 About
               </LinkScroll>
             </li>
             <li>
-              <LinkScroll to="services" className="justify-between">
+              <LinkScroll
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Services
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
               </LinkScroll>
             </li>
             <li>
-              <LinkScroll to="contact" className="justify-between">
+              <LinkScroll
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className=""
+              >
                 Contact
               </LinkScroll>
             </li>
           </ul>
         </div>
-      </div> */}
+      </div>
 
       {/* Horizontal Menu */}
-      <nav className="navbar-center hidden lg:flex w-6/12 lg:justify-center">
-        <ul className="flex items-center justify-center mx-auto gap-4 sm:gap-8 font-bold text-xs sm:text-lg w-9/12 lg:text-2xl">
+      <div className="navbar-end menu hidden lg:flex w-6/12 lg:justify-center text-[#cbb26a]">
+        <ul className="flex gap-2 items-center justify-center mx-auto font-bold text-xs md:text-lg w-9/12">
           <li className="flex items-center gap-2">
             <LinkScroll
               to="hero"
@@ -101,9 +108,7 @@ const Nav = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className={`${
-                location.pathname === "home" ? "text-gray-500" : ""
-              }text-indigo-600 gold-hover transition-colors`}
+              className="hover:bg-base-300 hover:text-[#cbb26a] focus-visible:text-[#cbb26a]"
             >
               Home
             </LinkScroll>
@@ -115,9 +120,7 @@ const Nav = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className={`${
-                location.pathname === "about-us" ? "gold" : ""
-              }text-indigo-600 gold-hover transition-colors`}
+              className="hover:bg-base-300 hover:text-[#cbb26a] focus-visible:text-[#cbb26a]"
             >
               About
             </LinkScroll>
@@ -129,13 +132,21 @@ const Nav = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className={
-                location.pathname === "portfolio"
-                  ? "gold gold-hover"
-                  : "text-indigo-600 gold-hover transition-colors"
-              }
+              className="hover:bg-base-300 hover:text-[#cbb26a] focus-visible:text-[#cbb26a]"
             >
               Services
+            </LinkScroll>
+          </li>
+          <li className="flex items-center gap-2">
+            <LinkScroll
+              to="testimonials"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="hover:bg-base-300 hover:text-[#cbb26a] focus-visible:text-[#cbb26a]"
+            >
+              Testimonials
             </LinkScroll>
           </li>
           <li className="flex items-center gap-2">
@@ -145,18 +156,21 @@ const Nav = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className={
-                location.pathname === "contact"
-                  ? ""
-                  : "text-indigo-600 gold-hover transition-colors"
-              }
+              className="hover:bg-base-300 hover:text-[#cbb26a] focus-visible:text-[#cbb26a]"
             >
               Contact
             </LinkScroll>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+      <Link
+        className="btn btn-primary text-center justify-center items-center flex gap-2"
+        to="tel: +12812235020"
+      >
+        <PhoneIcon />
+        <p className="hidden sm:block">Call now +1 (281) 223-5020</p>
+      </Link>
+    </nav>
   );
 };
 
