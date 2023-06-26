@@ -20,7 +20,11 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Installation
                 </p>
-                <Link to="/all-services" className="btn btn-link">
+                <Link
+                  to="all-services"
+                  className="btn btn-link"
+                  target="_blank"
+                >
                   See more...
                 </Link>
               </div>
@@ -47,9 +51,9 @@ const Services = () => {
                   Air Conditioning Repair
                 </p>
                 <Link
-                  to="/all-services"
-                  target="_blank"
+                  to="all-services"
                   className="btn btn-link"
+                  target="_blank"
                 >
                   See more...
                 </Link>
@@ -76,9 +80,9 @@ const Services = () => {
                   Heating Installation
                 </p>
                 <Link
-                  to="/all-services"
-                  target="_blank"
+                  to="all-services"
                   className="btn btn-link"
+                  target="_blank"
                 >
                   See more...
                 </Link>
@@ -106,9 +110,9 @@ const Services = () => {
                   Heating Repair
                 </p>
                 <Link
-                  to="/all-services"
-                  target="_blank"
+                  to="all-services"
                   className="btn btn-link"
+                  target="_blank"
                 >
                   See more...
                 </Link>
@@ -136,9 +140,9 @@ const Services = () => {
                   Air Duct Sanitizing
                 </p>
                 <Link
-                  to="/all-services"
-                  target="_blank"
+                  to="all-services"
                   className="btn btn-link"
+                  target="_blank"
                 >
                   See more...
                 </Link>
@@ -166,9 +170,9 @@ const Services = () => {
                   Attic Insulation
                 </p>
                 <Link
-                  to="/all-services"
-                  target="_blank"
+                  to="all-services"
                   className="btn btn-link"
+                  target="_blank"
                 >
                   See more...
                 </Link>
