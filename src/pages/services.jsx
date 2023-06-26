@@ -20,11 +20,7 @@ const Services = () => {
                 <p className="text-[#cbb26a] text-xl font-bold">
                   Air Conditioning Installation
                 </p>
-                <Link
-                  to="all-services"
-                  className="btn btn-link"
-                  target="_blank"
-                >
+                <Link to="all-services" className="btn btn-link">
                   See more...
                 </Link>
               </div>
