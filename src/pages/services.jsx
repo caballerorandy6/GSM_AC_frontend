@@ -21,7 +21,7 @@ const Services = () => {
                   Air Conditioning Installation
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
@@ -51,7 +51,7 @@ const Services = () => {
                   Air Conditioning Repair
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
@@ -80,7 +80,7 @@ const Services = () => {
                   Heating Installation
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
@@ -110,7 +110,7 @@ const Services = () => {
                   Heating Repair
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
@@ -140,7 +140,7 @@ const Services = () => {
                   Air Duct Sanitizing
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
@@ -170,7 +170,7 @@ const Services = () => {
                   Attic Insulation
                 </p>
                 <Link
-                  to="all-services"
+                  to="/all-services"
                   target="_blank"
                   className="btn btn-link"
                 >
