@@ -1,11 +1,8 @@
-import { useLocation } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import { Link as Link } from "react-router-dom";
-import PhoneIcon from "./PhoneIcon";
+import { FaPhone } from "react-icons/fa";
 
 const Nav = () => {
-  const location = useLocation();
-
   return (
     <nav className="flex navbar fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
       <LinkScroll
@@ -27,7 +24,7 @@ const Nav = () => {
         <div className="dropdown">
           <label
             tabIndex={0}
-            className="btn btn-ghost text-indigo-600 lg:hidden"
+            className="btn btn-ghost text-base-100/70 lg:hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +43,7 @@ const Nav = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box text-white sm:text-lg"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box sm:text-lg"
           >
             <li>
               <LinkScroll
@@ -55,6 +52,7 @@ const Nav = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                className="text-[#cbb26a]"
               >
                 Home
               </LinkScroll>
@@ -66,7 +64,7 @@ const Nav = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className={`${location.pathname === "about-us" ? "gold" : ""}`}
+                className="text-[#cbb26a]"
               >
                 About
               </LinkScroll>
@@ -78,8 +76,21 @@ const Nav = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                className="text-[#cbb26a]"
               >
                 Services
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="text-[#cbb26a]"
+              >
+                Testimonials
               </LinkScroll>
             </li>
             <li>
@@ -89,7 +100,7 @@ const Nav = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className=""
+                className="text-[#cbb26a]"
               >
                 Contact
               </LinkScroll>
@@ -167,7 +178,7 @@ const Nav = () => {
         className="btn btn-primary text-center justify-center items-center flex gap-2"
         to="tel: +12812235020"
       >
-        <PhoneIcon />
+        <FaPhone />
         <p className="hidden sm:block">Call now +1 (281) 223-5020</p>
       </Link>
     </nav>

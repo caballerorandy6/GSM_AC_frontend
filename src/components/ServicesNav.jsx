@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import PhoneIcon from "./PhoneIcon";
+import { FaArrowLeft } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 
 const ServicesNav = () => {
   const navigate = useNavigate();
@@ -9,6 +10,15 @@ const ServicesNav = () => {
     <>
       {/* Navbar */}
       <nav className="flex navbar-center fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
+        <button
+          onClick={() => navigate(-1)}
+          className="btn btn-error text-white flex gap-2 items-center"
+        >
+          <FaArrowLeft className="text-white" />
+          <p className="font-bold text-white hidden sm:block">Return Home</p>
+          <p className="font-bold text-white sm:hidden">Back</p>
+        </button>
+
         <button
           onClick={() => navigate("/")}
           className="lg:w-2/12 flex justify-center"
@@ -23,7 +33,7 @@ const ServicesNav = () => {
         {/* Nav Dropdown */}
         <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost text-indigo-600">
+            <label tabIndex={0} className="btn btn-ghost text-base-100/70">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-12 w-14"
@@ -41,7 +51,7 @@ const ServicesNav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box text-white sm:text-lg"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box sm:text-lg"
             >
               <li>
                 <LinkScroll
@@ -50,7 +60,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a] text-base"
                 >
                   Air Conditioning Installation
                 </LinkScroll>
@@ -62,7 +72,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a]"
                 >
                   Air Conditioning Repair
                 </LinkScroll>
@@ -74,7 +84,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a]"
                 >
                   Heating Installation
                 </LinkScroll>
@@ -86,7 +96,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a]"
                 >
                   Heating Repair
                 </LinkScroll>
@@ -98,7 +108,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a]"
                 >
                   Air Duct Sanitizing
                 </LinkScroll>
@@ -110,7 +120,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-white font-semibold cursor-pointer"
+                  className="text-[#cbb26a]"
                 >
                   Attic Insulation
                 </LinkScroll>
@@ -119,10 +129,10 @@ const ServicesNav = () => {
           </div>
         </div>
         <Link
-          className="btn btn-primary text-center justify-center items-center flex gap-2 lg:w-3/12"
+          className="btn btn-primary text-center justify-center items-center flex gap-2"
           to="tel: +12812235020"
         >
-          <PhoneIcon />
+          <FaPhone />
           <p className="hidden sm:block">Call now +1 (281) 223-5020</p>
         </Link>
       </nav>

@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const ServiceLayout = ({ title, description }) => {
   return (
@@ -7,6 +8,7 @@ const ServiceLayout = ({ title, description }) => {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 };

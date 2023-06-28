@@ -5,30 +5,34 @@ const Footer = () => {
     <div className="bg-black w-full">
       <div className="flex flex-col lg:flex-row gap-8 text-white text-opacity-70 py-8">
         <div className="lg:w-4/12 flex flex-col items-center">
-          <h3 className="gold font-bold mb-4 text-2xl">Working Hours</h3>
+          <h3 className="text-[#cbb26a] font-bold mb-4 text-2xl">
+            Working Hours
+          </h3>
           <div className="flex gap-2 ">
             <p>Monday to Saturday</p>
-            <p className="gold font-bold">{"---"}</p>
+            <p className="text-[#cbb26a] font-bold">{"---"}</p>
             <p>8:00am to 8:00pm</p>
           </div>
           <div className="flex gap-2">
             <p>Sunday</p>
-            <p className="gold font-bold">{"---"}</p>
+            <p className="text-[#cbb26a] font-bold">{"---"}</p>
             <p>Emergency services ONLY</p>
           </div>
         </div>
 
         <div className="lg:w-4/12 flex flex-col items-center">
-          <h3 className="gold font-bold mb-4 text-2xl">Contact Us</h3>
+          <h3 className="text-[#cbb26a] font-bold mb-4 text-2xl">Contact Us</h3>
           <p>G S M A/C & General Contractor INC.</p>
           <p className="mb-4">Cypress, TX 77433</p>
-          <Link className="gold" to="tel: +12812235020">
+          <Link className="text-[#cbb26a]" to="tel: +12812235020">
             Phone: (281) 223-5020
           </Link>
         </div>
 
         <div className="lg:w-4/12 flex flex-col items-center">
-          <h3 className="gold font-bold mb-4 text-2xl">Payment accepted</h3>
+          <h3 className="text-[#cbb26a] font-bold mb-4 text-2xl">
+            Payment accepted
+          </h3>
           <div className="flex gap-2">
             <img className="rounded" src="./cash.webp" alt="Cash Image" />
             <img className="rounded" src="./check.webp" alt="Check Image" />
@@ -46,7 +50,7 @@ const Footer = () => {
 
       <div className="flex flex-col lg:flex-row justify-center p-8 gap-4 lg:gap-10 items-center">
         <div className="flex items-center gap-2">
-          <h3 className="gold font-bold mb-4 text-base mt-4">
+          <h3 className="text-[#cbb26a] font-bold mb-4 text-base mt-4">
             Social Networks
           </h3>
           <div className="flex items-center gap-4">
@@ -74,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex  items-center gap-4">
-          <p className="gold font-bold text-base">Developed with</p>
+          <p className="text-[#cbb26a] font-bold text-base">Developed with</p>
           <img
             className="w-12 h-12 rounded-full"
             src="./vite.webp"
@@ -82,7 +86,8 @@ const Footer = () => {
           />
         </div>
         <p className="font-bold text-base text-center mb-8 mt-7 text-white text-opacity-80">
-          GSM A/C <span className="gold">General and Contractor </span>
+          GSM A/C{" "}
+          <span className="text-[#cbb26a]">General and Contractor </span>
           {`@${new Date().getFullYear()}`} all rights reserved.
         </p>
       </div>

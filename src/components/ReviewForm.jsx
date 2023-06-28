@@ -43,7 +43,7 @@ const ReviewForm = ({ reviews, setReviews }) => {
   }, [setReviews]);
 
   return (
-    <div className="w-10/12 md:w-full h-full mx-auto border-[#cbb26a] border-2 p-6 sm:p-8 rounded-md shadow-lg mb-4 bg-opacity-70">
+    <div className="w-full md:w-full h-full mx-auto border-[#cbb26a] border-2 p-6 sm:p-8 rounded-md shadow-lg mb-4 bg-opacity-70">
       <div className="flex flex-col">
         <h1 className="text-center text-xl text-[#cbb26a] text-opacity-90 sm:text-2xl mb-2 sm:mb-4 font-semibold uppercase">
           Submit your review!

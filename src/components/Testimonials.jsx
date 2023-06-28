@@ -17,7 +17,7 @@ const Testimonials = () => {
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
 
       <button
-        className="btn btn-primary border-2 font-semibold my-4 text-base rounded-lg transition-colors mx-auto block"
+        className="btn btn-info text-white border-2 font-semibold my-4 text-base rounded-lg transition-colors mx-auto block"
         onClick={() => setSeeReviewList(!seeReviewList)}
       >
         {!seeReviewList
@@ -26,6 +26,19 @@ const Testimonials = () => {
       </button>
 
       {seeReviewList && <ReviewsList reviews={reviews} />}
+
+      {seeReviewList ? (
+        <button
+          className="btn btn-info text-white border-2 font-semibold my-4 text-base rounded-lg transition-colors mx-auto block mt-10"
+          onClick={() => setSeeReviewList(!seeReviewList)}
+        >
+          {!seeReviewList
+            ? "Click here to see our customers review"
+            : "Click here to hide our customers review"}
+        </button>
+      ) : (
+        ""
+      )}
 
       <div className="w-full lg:flex justify-center gap-8 lg:p-4">
         <video
