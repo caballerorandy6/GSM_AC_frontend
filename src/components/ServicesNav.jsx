@@ -33,10 +33,10 @@ const ServicesNav = () => {
         {/* Nav Dropdown */}
         <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost text-base-100/70">
+            <label tabIndex={0} className="btn btn-ghost text-indigo-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-14"
+                className="h-8 w-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
