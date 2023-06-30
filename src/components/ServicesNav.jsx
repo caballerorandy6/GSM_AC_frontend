@@ -9,7 +9,7 @@ const ServicesNav = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="flex navbar-center fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
+      <nav className="flex navbar-center sticky top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
         <button
           onClick={() => navigate(-1)}
           className="btn btn-error text-white flex gap-2 items-center"

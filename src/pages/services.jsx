@@ -114,7 +114,7 @@ const Services = () => {
         <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
           <div className="rounded overflow-hidden">
             <img
-              src="./worker6.webp"
+              src="./about-people.webp"
               alt="Worker 6"
               className="w-full h-60 object-cover"
             />

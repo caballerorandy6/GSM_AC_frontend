@@ -41,7 +41,6 @@ const Testimonials = () => {
         <video
           className="w-10/12 mb-4 mx-auto sm:w-10/12 lg:w-6/12"
           src="./video.mp4"
-          autoPlay
           muted
           loop
           controls

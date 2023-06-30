@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa";
 
 const Nav = () => {
   return (
-    <nav className="flex navbar fixed top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
+    <nav className="flex navbar sticky top-0 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2 -z-30">
       <LinkScroll
         to="hero"
         spy={true}

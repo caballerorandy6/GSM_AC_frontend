@@ -9,12 +9,12 @@ const Hero = () => {
       id="hero"
       className="background-image bg-cover object-cover min-h-screen"
     >
-      <div className="top-0 left-0 right-0 bottom-0 bg-img pt-28 min-h-screen">
-        <div className="w-6/12 sm:w-4/12 lg:w-3/12 mx-auto mt-6 p-4 text-center bg-white bg-opacity-10 rounded-xl ">
+      <div className="top-0 left-0 right-0 bottom-0 bg-img pt-10 min-h-screen">
+        <div className="w-6/12 sm:w-4/12 lg:w-3/12 mx-auto mt-6 p-4 text-center bg-white bg-opacity-10 rounded-xl">
           <h1 className="text-3xl sm:text-4xl md:text-5xl text-white text-opacity-90 uppercase">
-            GSM <span className="font-bold text-base-300 opacity-60">A/C</span>
+            GSM <span className="font-bold text-[#cbb26a]">A/C</span>
           </h1>
-          <span className="text-base lg:text-xl font-bold text-[#cbb26a] mt-4">
+          <span className="text-base lg:text-xl font-bold text-white text-opacity-70 mt-4">
             General & Contractor Inc
           </span>
         </div>

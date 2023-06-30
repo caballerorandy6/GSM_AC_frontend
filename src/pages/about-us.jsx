@@ -6,19 +6,7 @@ const AboutUs = () => {
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
 
-      <div className="mx-auto w-10/12 flex gap-4 text-center flex-col mt-10 text-xl">
-        <p className="text-indigo-600 font-semibold">
-          Air Conditioning Installation
-        </p>
-        <p className="text-indigo-600 font-semibold">Air Conditioning Repair</p>
-        <p className="text-indigo-600 font-semibold">Heating Installation</p>
-        <p className="text-indigo-600 font-semibold">Heating Repair</p>
-        <p className="text-indigo-600 font-semibold">Air Duct Cleaning</p>
-        <p className="text-indigo-600 font-semibold">Air Duct Sanitizing</p>
-        <p className="text-indigo-600 font-semibold">Attic Insulation</p>
-      </div>
-
-      <div className="w-10/12 sm:w-8/12 md:w-8/12 bg-opacity-30 mx-auto shadow-lg rounded lg:mt-10 mb-10 p-4">
+      <div className="w-full sm:w-8/12 bg-opacity-30 mx-auto shadow-lg rounded lg:mt-10 mb-10 p-4">
         <p className="w-full text-black/70 text-base mx-auto p-4">
           We established our HVAC repair & installation company in 2005 and
           since then, G S M A/C & General Contractor INC. has become a reference
@@ -28,13 +16,19 @@ const AboutUs = () => {
           dependable partner in us.
         </p>
 
-        <div className="flex flex-col lg:flex-row gap-4 justify-center mt-2 mb-4">
-          <div className="card md:w-10/12 lg:w-5/12 bg-base-100 shadow-xl mx-auto image-full">
-            <figure>
-              <img src="./worker.webp" alt="About Worker" />
+        <div className="w-full flex flex-col xl:flex-row gap-4 justify-center mt-2 mb-4">
+          <div className="card md:w-10/12 lg:w-8/12 bg-base-100 bg-opacity-90 mx-auto">
+            <figure className="bg-img">
+              <img
+                src="./worker.webp"
+                alt="About Worker"
+                className="h-64 w-full object-cover background-image-service2 bg-img"
+              />
             </figure>
             <div className="card-body">
-              <h3 className="card-title gold text-2xl">Why Work With Us?</h3>
+              <h3 className="card-title text-[#cbb26a] text-2xl">
+                Why Work With Us?
+              </h3>
               <p className="text-white text-opacity-90 text-base">
                 Unlike many companies in Cypress, TX that offer limited
                 assistance, we offer a comprehensive service package. We
@@ -48,12 +42,18 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="card md:w-10/12 lg:w-5/12 bg-base-100 shadow-xl mx-auto image-full ">
+          <div className="card md:w-10/12 lg:w-8/12 bg-base-100 bg-opacity-90 mx-auto ">
             <figure>
-              <img src="./about-people.webp" alt="About People" />
+              <img
+                src="./worker6.webp"
+                alt="About People"
+                className="h-64 w-full object-cover"
+              />
             </figure>
             <div className="card-body">
-              <h3 className="card-title gold text-2xl">Why Trust Us?</h3>
+              <h3 className="card-title text-[#cbb26a] text-2xl">
+                Why Trust Us?
+              </h3>
               <p className="text-white text-opacity-90 text-base">
                 Our HVAC repair & installation company is based on honesty,
                 teamwork, integrity, and accountability. Our core values have

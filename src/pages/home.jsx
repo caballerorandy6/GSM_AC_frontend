@@ -7,14 +7,14 @@ import Contact from "./contact";
 
 const Home = () => {
   return (
-    <>
+    <section>
       <Hero />
       <AboutUs />
       <Services />
       <Testimonials />
       <Gallery />
       <Contact />
-    </>
+    </section>
   );
 };
 

@@ -4,12 +4,10 @@ import HeatingInstallation from "./HeatingInstallation";
 import HeatingRepair from "./HeatingRepair";
 import AirDuctSanitizing from "./AirDuctSanitizing";
 import AtticInsulation from "./AtticInsulation";
-import ServicesNav from "./ServicesNav";
 
 const ServicesDetails = () => {
   return (
-    <section id="all-services" className="mx-auto w-full bg-gray-50">
-      <ServicesNav />
+    <section id="all-services" className="mx-auto w-full bg-white">
       <AirConditioningInstallation />
       <AirConditioningRepair />
       <HeatingInstallation />
