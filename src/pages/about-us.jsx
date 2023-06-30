@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <section id="about-us">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-14">
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-8">
         About Our HVAC Repair & Installation Company
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>

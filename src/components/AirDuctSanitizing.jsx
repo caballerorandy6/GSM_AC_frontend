@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AirDuctSanitizing = () => {
   return (
-    <section id="air-duct-Sanitizing" className="w-10/12 mx-auto min-h-screen">
+    <section id="air-duct-sanitizing" className="w-10/12 mx-auto min-h-screen">
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
         Quality HVAC Services and Air Duct Sanitizing Services!
       </h1>

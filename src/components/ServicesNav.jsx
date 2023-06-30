@@ -103,7 +103,7 @@ const ServicesNav = () => {
               </li>
               <li>
                 <LinkScroll
-                  to="air-duct-Sanitizing"
+                  to="air-duct-sanitizing"
                   spy={true}
                   smooth={true}
                   offset={50}

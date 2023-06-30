@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <section id="services" className="w-full overflow-y-scroll">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         What Are Our Services
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
@@ -203,7 +203,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="mb-8">
+        <div className="">
           <h3 className="text-[#cbb26a] text-2xl mb-2">
             Call us at{" "}
             <Link className="text-blue-600 text-lg" to="+12812235020">

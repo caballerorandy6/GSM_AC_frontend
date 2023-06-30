@@ -7,10 +7,7 @@ const Testimonials = () => {
   const [seeReviewList, setSeeReviewList] = useState(false);
 
   return (
-    <section
-      id="testimonials"
-      className="w-full mx-auto overflow-y-scroll pt-10"
-    >
+    <section id="testimonials" className="w-full mx-auto overflow-y-scroll">
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         Testimonials
       </h1>
