@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="background-image-contact bg-cover object-cover"
+      className="background-image-contact bg-cover object-cover min-h-screen"
     >
-      <div className="bg-img pb-10">
+      <div className="bg-img pb-10 min-h-screen">
         <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
           Call Us Now!
         </h1>
