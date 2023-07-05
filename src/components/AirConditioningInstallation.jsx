@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import AirConditioningRepair from "./AirConditioningRepair";
+import HeatingInstallation from "./HeatingInstallation";
+import HeatingRepair from "./HeatingRepair";
+import AirDuctSanitizing from "./AirDuctSanitizing";
+import AtticInsulation from "./AtticInsulation";
 
 const AirConditioningInstallation = () => {
   return (
@@ -69,6 +74,11 @@ const AirConditioningInstallation = () => {
         today!
       </p>
       <div className="w-full content-none mx-auto h-1 mt-4 bg-black/10"></div>
+      <AirConditioningRepair />
+      <HeatingInstallation />
+      <HeatingRepair />
+      <AirDuctSanitizing />
+      <AtticInsulation />
     </section>
   );
 };

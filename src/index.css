@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .background-image {
-  background-image: url(/public/main.webp);
+  background-image: url(./main.webp);
   background-color: rgba(0, 0, 0, 0.9);
 }
 
 .background-image-contact {
-  background-image: url(/public/worker3.webp);
+  background-image: url(./worker3.webp);
   background-color: rgba(0, 0, 0, 0.9);
 }
 

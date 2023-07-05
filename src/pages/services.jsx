@@ -8,7 +8,7 @@ const Services = () => {
       </h1>
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
       <div className="w-10/12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 grid-auto-fit-xs grid-auto-fit-sm grid-auto-fit-md grid-auto-fit-lg grid-auto-fit-xl justify-items-center mt-8 mb-8 mx-auto">
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./worker1.webp"
@@ -24,7 +24,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 We have the know-how and resources to install AC and HVAC units
                 of all generations. We keep drilling to a minimum and always
                 clean up after ourselves because we respect the properties of
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./worker2.webp"
@@ -50,7 +50,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 When it comes to AC or HVAC repair, we are the specialists that
                 you should contact. Our technicians can quickly pinpoint and
                 remedy or replace defective parts and components.
@@ -59,7 +59,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./worker3.webp"
@@ -75,7 +75,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 Apart from installing ACs and HVACs, we can also set up heating
                 devices. We strive to choose locations that offer maximum
                 coverage so our customers can heat their properties without
@@ -85,7 +85,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./worker4.webp"
@@ -101,7 +101,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 Use our office & home heating repair services services to remedy
                 problematic heating units. We can repair or replace faulty parts
                 to restore the original functionality of the devices. Our prices
@@ -111,7 +111,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./about-people.webp"
@@ -127,7 +127,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 Customers can trust us with the cleaning and sanitizing of their
                 air ducts. We have the products and tools to eliminate harmful
                 particles such as dust, dirt, allergens, germs, etc. We can keep
@@ -137,7 +137,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="rounded-lg w-10/12 sm:w-full shadow-lg bg-gray-50">
+        <div className="rounded-lg w-full shadow-lg">
           <div className="rounded overflow-hidden">
             <img
               src="./worker7.webp"
@@ -153,7 +153,7 @@ const Services = () => {
                   See more...
                 </Link>
               </div>
-              <p className="text-gray-800 text-base">
+              <p className="text-gray-800">
                 Customers can trust us with the cleaning and sanitizing of their
                 air ducts. We have the products and tools to eliminate harmful
                 particles such as dust, dirt, allergens, germs, etc. We can keep
@@ -163,10 +163,11 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="w-10/12 mx-auto p-8 my-8 rounded-lg shadow-lg bg-gray-50">
+
+      <div className="w-10/12 mx-auto p-8 my-8 rounded-lg shadow-lg">
         <div className="my-8">
           <h3 className="text-[#cbb26a] text-2xl mb-2">Capable Specialists</h3>
-          <p className="text-black/70 text-base">
+          <p className="text-black/70">
             At G S M A/C & General Contractor INC., we use innovative techniques
             and state-of-the-art equipment to correctly carry out
             labor-intensive and time-sensitive cooling and heating projects. We
@@ -183,7 +184,7 @@ const Services = () => {
           <h3 className="text-[#cbb26a] text-2xl mb-2">
             Superior Customer Service Since 2005
           </h3>
-          <p className="text-black/70 text-base">
+          <p className="text-black/70">
             Many homeowners and businesses in {""}
             <Link
               to="https://en.wikipedia.org/wiki/Cypress,_Texas"
@@ -211,7 +212,7 @@ const Services = () => {
             </Link>{" "}
             to take advantage of our impeccable heating repair services!
           </h3>
-          <p className="text-black/70 text-base">
+          <p className="text-black/70">
             Book our affordable AC replacement services and other options by
             calling us now. Our phone operators will gladly answer your
             questions. You can find our number on our homepage. Let us know how

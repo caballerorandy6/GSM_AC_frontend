@@ -1,45 +1,55 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import ReviewForm from "./ReviewForm";
 import ReviewsList from "./ReviewsList";
+import GoogleReviews from "./GoogleReviews";
 
 const Testimonials = () => {
   const [reviews, setReviews] = useState([]);
   const [seeReviewList, setSeeReviewList] = useState(false);
 
   return (
-    <section id="testimonials" className="w-full mx-auto overflow-y-scroll">
+    <section
+      id="testimonials"
+      className="w-full mx-auto overflow-y-scroll mt-10"
+    >
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         Testimonials
       </h1>
+
       <div className="w-96 content-none mx-auto h-1 mt-4 bg-black/70"></div>
 
+      <div className="w-10/12 mt-10 mx-auto border p-8 rounded-lg shadow-md">
+        <GoogleReviews />
+      </div>
+
       <button
-        className="btn btn-info text-white border-2 font-semibold my-4 text-base rounded-lg transition-colors mx-auto block"
+        className="w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12 btn btn-link border-2 font-semibold text-base rounded-lg transition-colors mx-auto mt-10 block"
         onClick={() => setSeeReviewList(!seeReviewList)}
       >
         {!seeReviewList
-          ? "Click here to see our customers review"
-          : "Click here to hide our customers review"}
+          ? "click here to view customer reviews on our website!"
+          : "click here to hide customer reviews on our website!"}
       </button>
 
       {seeReviewList && <ReviewsList reviews={reviews} />}
 
       {seeReviewList ? (
         <button
-          className="btn btn-info text-white border-2 font-semibold my-4 text-base rounded-lg transition-colors mx-auto block mt-10"
+          className="w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12 btn btn-link border-2 font-semibold text-base rounded-lg transition-colors mx-auto block mt-6"
           onClick={() => setSeeReviewList(!seeReviewList)}
         >
           {!seeReviewList
-            ? "Click here to see our customers review"
-            : "Click here to hide our customers review"}
+            ? "click here to view customer reviews on our website!"
+            : "click here to hide customer reviews on our website!"}
         </button>
       ) : (
         ""
       )}
 
-      <div className="w-full lg:flex justify-center gap-8 lg:p-4">
+      <div className="w-full lg:flex justify-around">
         <video
-          className="w-10/12 mb-4 mx-auto sm:w-10/12 lg:w-6/12"
+          className="w-full md:w-10/12 mx-auto lg:w-6/12 p-16"
           src="./video.mp4"
           muted
           loop

@@ -5,7 +5,7 @@ const Review = ({ review }) => {
   const { createdAt, fullName, reviewTitle, rate, message } = review;
 
   return (
-    <div className="card w-10/12 lg:w-8/12 bg-gray-50  shadow-xl">
+    <div className="card w-10/12 lg:w-8/12 shadow-xl">
       <div className="card-body border-b">
         <label className="text-sm">
           {formatDate(createdAt)} by{" "}

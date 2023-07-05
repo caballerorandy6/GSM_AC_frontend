@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HeatingRepair = () => {
   return (
     <section id="heating-repair" className="w-10/12 mx-auto">
-      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
+      <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         Heating Repair Company That You Can Trust!
       </h1>
       <div className="w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12 content-none mx-auto h-1 mt-4 bg-black/70"></div>

@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 import React, { useRef } from "react";
 import { toast } from "react-toastify";
-import emailjs from "@emailjs/browser";
 import Alert from "./Alert";
 
 const Form = () => {
@@ -18,16 +17,6 @@ const Form = () => {
   const form = useRef();
 
   const onSubmit = () => {
-    emailjs
-      .sendForm("gmail", "rcweb_template", form.current, "jDYT49szBWHrh5m3P")
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
     toast.success("Message has been sent successfully!");
     reset();
   };

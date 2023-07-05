@@ -11,6 +11,10 @@ import AboutUs from "./pages/about-us";
 import Services from "./pages/services";
 import Contact from "./pages/contact";
 
+//Layouts
+import RootLayout from "./layouts/RootLayout";
+import ServiceLayout from "./layouts/ServiceLayout";
+
 //Components
 import ServicesDetails from "./components/ServicesDetails";
 import AirConditioningInstallation from "./components/AirConditioningInstallation";
@@ -19,10 +23,6 @@ import HeatingInstallation from "./components/HeatingInstallation";
 import HeatingRepair from "./components/HeatingRepair";
 import AirDuctSanitizing from "./components/AirDuctSanitizing";
 import AtticInsulation from "./components/AtticInsulation";
-
-//Layouts
-import RootLayout from "./layouts/RootLayout";
-import ServiceLayout from "./layouts/ServiceLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
