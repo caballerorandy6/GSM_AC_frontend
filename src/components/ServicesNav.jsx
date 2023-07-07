@@ -33,10 +33,13 @@ const ServicesNav = () => {
         {/* Nav Dropdown */}
         <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost text-indigo-600">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost text-base-100/70 lg:hidden text-indigo-600"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8"
+                className="h-10 w-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -60,7 +63,7 @@ const ServicesNav = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-[#cbb26a] text-base"
+                  className="text-[#cbb26a]"
                 >
                   Air Conditioning Installation
                 </LinkScroll>
@@ -128,6 +131,7 @@ const ServicesNav = () => {
             </ul>
           </div>
         </div>
+
         <Link
           className="btn btn-primary text-center justify-center items-center flex gap-2"
           to="tel: +12812235020"

@@ -20,6 +20,7 @@ const Nav = () => {
         />
       </LinkScroll>
 
+      {/* Dropdown Menu */}
       <div className="navbar-start w-1/12 lg:w-0 flex justify-around items-center">
         <div className="dropdown">
           <label

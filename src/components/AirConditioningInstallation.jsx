@@ -74,11 +74,6 @@ const AirConditioningInstallation = () => {
         today!
       </p>
       <div className="w-full content-none mx-auto h-1 mt-4 bg-black/10"></div>
-      <AirConditioningRepair />
-      <HeatingInstallation />
-      <HeatingRepair />
-      <AirDuctSanitizing />
-      <AtticInsulation />
     </section>
   );
 };

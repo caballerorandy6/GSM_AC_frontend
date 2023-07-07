@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import React, { useRef } from "react";
 import { toast } from "react-toastify";
 import Alert from "./Alert";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const {
@@ -17,10 +18,24 @@ const Form = () => {
   const form = useRef();
 
   const onSubmit = () => {
+    emailjs
+      .sendForm(
+        "service_dlwlgwh",
+        "template_hpvwk0f",
+        form.current,
+        "JwB-ZwsI5vcD9hM5o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     toast.success("Message has been sent successfully!");
     reset();
   };
-
   return (
     <div className="w-10/12 md:w-full h-full mx-auto border-2 border-white/60 p-6 sm:p-8 rounded-md shadow mb-4 bg-opacity-70">
       <div className="flex flex-col">
