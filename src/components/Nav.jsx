@@ -176,7 +176,7 @@ const Nav = () => {
         </ul>
       </div>
       <Link
-        className="btn btn-primary text-center justify-center items-center flex gap-2"
+        className="btn btn-primary btn-outline border-2 text-center justify-center items-center flex gap-2"
         to="tel: +12812235020"
       >
         <FaPhone />

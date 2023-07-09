@@ -12,11 +12,11 @@ const ServicesNav = () => {
       <nav className="flex navbar-center sticky top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
         <button
           onClick={() => navigate(-1)}
-          className="btn btn-error text-white flex gap-2 items-center"
+          className="btn btn-error btn-outline border-2 flex gap-2 items-center justify-center"
         >
-          <FaArrowLeft className="text-white" />
-          <p className="font-bold text-white hidden sm:block">Return Home</p>
-          <p className="font-bold text-white sm:hidden">Back</p>
+          <FaArrowLeft />
+          <p className="font-bold hidden sm:block">Return Home</p>
+          <p className="font-bold sm:hidden">Back</p>
         </button>
 
         <button
@@ -133,7 +133,7 @@ const ServicesNav = () => {
         </div>
 
         <Link
-          className="btn btn-primary text-center justify-center items-center flex gap-2"
+          className="btn btn-primary btn-outline border-2 text-center justify-center items-center flex gap-2"
           to="tel: +12812235020"
         >
           <FaPhone />
