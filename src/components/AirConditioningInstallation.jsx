@@ -1,15 +1,10 @@
 import { Link } from "react-router-dom";
-import AirConditioningRepair from "./AirConditioningRepair";
-import HeatingInstallation from "./HeatingInstallation";
-import HeatingRepair from "./HeatingRepair";
-import AirDuctSanitizing from "./AirDuctSanitizing";
-import AtticInsulation from "./AtticInsulation";
 
 const AirConditioningInstallation = () => {
   return (
     <section
       id="air-conditioning-installation"
-      className="w-10/12 mx-auto pt-10 min-h-screen"
+      className="w-10/12 mx-auto min-h-screen"
     >
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold pt-10">
         Take Advantage of Our Affordable AC Replacement Services Today!

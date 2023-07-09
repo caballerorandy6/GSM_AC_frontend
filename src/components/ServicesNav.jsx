@@ -12,22 +12,24 @@ const ServicesNav = () => {
       <nav className="flex navbar-center sticky top-0 z-30 bg-white w-full h-30 justify-around items-center mx-auto cursor-pointer p-2">
         <button
           onClick={() => navigate(-1)}
-          className="btn btn-error btn-outline border-2 flex gap-2 items-center justify-center"
+          className="btn btn-error text-white flex gap-2 items-center"
         >
-          <FaArrowLeft />
-          <p className="font-bold hidden sm:block">Return Home</p>
-          <p className="font-bold sm:hidden">Back</p>
+          <FaArrowLeft className="text-white" />
+          <p className="font-bold text-white hidden sm:block">Return Home</p>
+          <p className="font-bold text-white sm:hidden">Back</p>
         </button>
 
         <button
           onClick={() => navigate("/")}
           className="lg:w-2/12 flex justify-center"
         >
-          <img
-            className="h-16 w-16 md:h-20 md:w-20"
-            src="./logo_3.webp"
-            alt="Logo"
-          />
+          <Link to="/">
+            <img
+              className="h-16 w-16 md:h-20 md:w-20"
+              src="./logo_3.webp"
+              alt="Logo"
+            />
+          </Link>
         </button>
 
         {/* Nav Dropdown */}
@@ -35,7 +37,7 @@ const ServicesNav = () => {
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn btn-ghost text-base-100/70 lg:hidden text-indigo-600"
+              className="btn btn-ghost text-base-100/70 text-indigo-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,14 +60,14 @@ const ServicesNav = () => {
             >
               <li>
                 <LinkScroll
-                  to="air-conditioning-installation"
+                  to="heating-installation"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                   className="text-[#cbb26a]"
                 >
-                  Air Conditioning Installation
+                  Heating Installation
                 </LinkScroll>
               </li>
               <li>
@@ -82,18 +84,6 @@ const ServicesNav = () => {
               </li>
               <li>
                 <LinkScroll
-                  to="heating-installation"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-[#cbb26a]"
-                >
-                  Heating Installation
-                </LinkScroll>
-              </li>
-              <li>
-                <LinkScroll
                   to="heating-repair"
                   spy={true}
                   smooth={true}
@@ -102,6 +92,18 @@ const ServicesNav = () => {
                   className="text-[#cbb26a]"
                 >
                   Heating Repair
+                </LinkScroll>
+              </li>
+              <li>
+                <LinkScroll
+                  to="air-conditioning-installation"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="text-[#cbb26a]"
+                >
+                  Air Conditioning Installation
                 </LinkScroll>
               </li>
               <li>

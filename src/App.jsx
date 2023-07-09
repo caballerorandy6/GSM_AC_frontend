@@ -28,7 +28,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       {/* Main Menu */}
-      <Route path="/" element={<RootLayout />}>
+      <Route path="/" element={<RootLayout />} errorElement>
         <Route index element={<Home />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="services" element={<Services />} />

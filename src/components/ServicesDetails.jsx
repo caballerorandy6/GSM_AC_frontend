@@ -8,10 +8,10 @@ import AtticInsulation from "./AtticInsulation";
 const ServicesDetails = () => {
   return (
     <section id="all-services">
-      <AirConditioningInstallation />
-      <AirConditioningRepair />
       <HeatingInstallation />
+      <AirConditioningRepair />
       <HeatingRepair />
+      <AirConditioningInstallation />
       <AirDuctSanitizing />
       <AtticInsulation />
     </section>

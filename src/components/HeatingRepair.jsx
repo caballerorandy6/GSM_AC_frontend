@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HeatingRepair = () => {
   return (
-    <section id="heating-repair" className="w-10/12 mx-auto">
+    <section id="heating-repair" className="w-10/12 mx-auto mt-10">
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         Heating Repair Company That You Can Trust!
       </h1>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import ReviewForm from "./ReviewForm";
 import ReviewsList from "./ReviewsList";
 import GoogleReviews from "./GoogleReviews";

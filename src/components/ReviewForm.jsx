@@ -34,6 +34,11 @@ const ReviewForm = ({ reviews, setReviews }) => {
     const getReviews = async () => {
       try {
         const { data } = await clienteAxios(`/reviews`);
+
+        if (!data) {
+          throw Error("Could not fetch reviews");
+        }
+
         setReviews(data);
       } catch (error) {
         console.log(error);
