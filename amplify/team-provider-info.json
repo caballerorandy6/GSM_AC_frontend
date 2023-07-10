@@ -1,0 +1,15 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gsmac-main-212138-authRole",
+      "UnauthRoleArn": "arn:aws:iam::537460174591:role/amplify-gsmac-main-212138-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::537460174591:role/amplify-gsmac-main-212138-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-gsmac-main-212138-deployment",
+      "UnauthRoleName": "amplify-gsmac-main-212138-unauthRole",
+      "StackName": "amplify-gsmac-main-212138",
+      "StackId": "arn:aws:cloudformation:us-east-2:537460174591:stack/amplify-gsmac-main-212138/8179ce00-1ec8-11ee-89bb-029a55a5d5cf",
+      "AmplifyAppId": "d15ozyk9oykl8t"
+    }
+  }
+}
