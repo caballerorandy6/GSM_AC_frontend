@@ -11,5 +11,18 @@
       "StackId": "arn:aws:cloudformation:us-east-2:537460174591:stack/amplify-gsmac-main-212138/8179ce00-1ec8-11ee-89bb-029a55a5d5cf",
       "AmplifyAppId": "d15ozyk9oykl8t"
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gsmac-dev-201054-authRole",
+      "UnauthRoleArn": "arn:aws:iam::537460174591:role/amplify-gsmac-dev-201054-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::537460174591:role/amplify-gsmac-dev-201054-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-gsmac-dev-201054-deployment",
+      "UnauthRoleName": "amplify-gsmac-dev-201054-unauthRole",
+      "StackName": "amplify-gsmac-dev-201054",
+      "StackId": "arn:aws:cloudformation:us-east-2:537460174591:stack/amplify-gsmac-dev-201054/c9c94180-1f87-11ee-9c3f-027cdea2ca93",
+      "AmplifyAppId": "d15ozyk9oykl8t"
+    }
   }
 }
