@@ -22,16 +22,16 @@ const Testimonials = () => {
         <GoogleReviews />
       </div>
 
-      <button
+      {/* <button
         className="w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12 btn btn-link border-2 font-semibold text-base rounded-lg transition-colors mx-auto mt-10 block"
         onClick={() => setSeeReviewList(!seeReviewList)}
       >
         {!seeReviewList
           ? "click here to view customer reviews on our website!"
           : "click here to hide customer reviews on our website!"}
-      </button>
+      </button> */}
 
-      {seeReviewList && <ReviewsList reviews={reviews} />}
+      {/* {seeReviewList && <ReviewsList reviews={reviews} />}
 
       {seeReviewList ? (
         <button
@@ -44,7 +44,7 @@ const Testimonials = () => {
         </button>
       ) : (
         ""
-      )}
+      )} */}
 
       <div className="w-full lg:flex justify-around">
         <video
@@ -54,9 +54,9 @@ const Testimonials = () => {
           loop
           controls
         />
-        <div className="w-full mx-auto sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 p-10">
+        {/* <div className="w-full mx-auto sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 p-10">
           <ReviewForm reviews={reviews} setReviews={setReviews} />
-        </div>
+        </div> */}
       </div>
     </section>
   );
