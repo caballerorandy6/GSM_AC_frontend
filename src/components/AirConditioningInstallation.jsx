@@ -62,9 +62,9 @@ const AirConditioningInstallation = () => {
         services, feel free to call us at{" "}
         <Link
           className="text-indigo-500 hover:text-indigo-600"
-          to="tel: +12812235020"
+          to="tel: +12812354684"
         >
-          (281) 223-5020
+          (281) 235-4684
         </Link>{" "}
         today!
       </p>

@@ -53,6 +53,7 @@ const Testimonials = () => {
           muted
           loop
           controls
+          autoPlay
         />
         {/* <div className="w-full mx-auto sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 p-10">
           <ReviewForm reviews={reviews} setReviews={setReviews} />

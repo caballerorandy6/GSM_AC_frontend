@@ -33,10 +33,10 @@ const Contact = () => {
               </p>
               <Link
                 className="text-center justify-center items-center w-3/12 bg-gray-100 border-none"
-                to="tel: +12812235020"
+                to="tel: +12812354684"
               >
                 <p className="w-full rounded-lg mx-auto text-sm sm:text-xl text-white text-opacity-80 hover:text-blue-500 lg:text-2xl sm:block font-semibold hover:mx-auto hover:rounded-lg transition-colors">
-                  Call now +1 (281)223-5020
+                  Call now +1 (281) 235-4684
                 </p>
               </Link>
             </div>

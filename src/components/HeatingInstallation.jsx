@@ -61,8 +61,8 @@ const HeatingInstallation = () => {
         experts. G S M A/C & General Contractor INC. offers a reliable home
         heating repair and installation service that you can count on. If you
         need more information about the services we offer, give us a call at{" "}
-        <Link className="text-indigo-600" to="tel: +12812235020">
-          (281) 223-5020
+        <Link className="text-indigo-600" to="tel: +12812354684">
+          (281) 235-4684
         </Link>{" "}
         and let us address your concerns.
       </p>

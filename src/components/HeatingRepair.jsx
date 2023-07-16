@@ -52,8 +52,8 @@ const HeatingRepair = () => {
         With years of experience, trusting a professional like G S M A/C &
         General Contractor INC. is the right choice. If you need our quality
         heating repair service in Cypress, TX, feel free to contact us at{" "}
-        <Link className="text-indigo-600" to="tel: +12812235020">
-          (281) 223-5020
+        <Link className="text-indigo-600" to="tel: +12812354684">
+          (281) 235-4684
         </Link>{" "}
         right away!
       </p>

@@ -49,3 +49,20 @@
 input[type="radio"] {
   display: none;
 }
+
+/* Resorte */
+.resorte {
+  animation: resorte 0.8s infinite alternate;
+}
+
+@keyframes resorte {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

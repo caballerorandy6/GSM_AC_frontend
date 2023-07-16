@@ -24,8 +24,8 @@ const Footer = () => {
           <h3 className="text-[#cbb26a] font-bold mb-4 text-2xl">Contact Us</h3>
           <p>G S M A/C & General Contractor INC.</p>
           <p className="mb-4">Cypress, TX 77433</p>
-          <Link className="text-[#cbb26a]" to="tel: +12812235020">
-            Phone: (281) 223-5020
+          <Link className="text-[#cbb26a]" to="tel: +12812354684">
+            Phone: (281) 235-4684
           </Link>
         </div>
 

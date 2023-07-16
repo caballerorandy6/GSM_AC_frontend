@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import Form from "./Form";
-import CheckIcon from "./CheckIcon";
 
 const Hero = () => {
   return (
     <section
       id="hero"
-      className="background-image bg-cover object-cover min-h-screen"
+      className="background-image bg-cover object-cover min-h-screen text-base"
     >
       <div className="top-0 left-0 right-0 bottom-0 bg-img min-h-screen pt-12">
         <div className="w-6/12 sm:w-4/12 lg:w-3/12 mx-auto text-center bg-white bg-opacity-10 rounded-xl ">
@@ -22,11 +21,10 @@ const Hero = () => {
           <div className="sm:flex flex-col sm:w-5/12 md:6/12 lg:w-7/12 items-center">
             <div className="w-10/12  mx-auto mt-4 text-center">
               <div className="flex justify-center items-center gap-2 text-3xl">
-                <CheckIcon />
                 <Link
                   to="https://dealerportal.optimusfinancing.com/?did=4zE7mS4sI2pR7yK1wM"
                   target="_blank"
-                  className="btn btn-link text-sm lg:text-lg text-white text-opacity-70 hover:text-blue-500 transition-colors"
+                  className="btn btn-link text-sm lg:text-lg text-white text-opacity-70 hover:text-blue-500 transition-colors resorte"
                 >
                   Financing Application Click Here!!!
                 </Link>

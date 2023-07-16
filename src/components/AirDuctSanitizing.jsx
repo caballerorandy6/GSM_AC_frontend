@@ -60,8 +60,8 @@ const AirDuctSanitizing = () => {
       </p>
       <p className="text-black/70 mb-10">
         Call G S M A/C & General Contractor INC. at{" "}
-        <Link className="text-indigo-600" to="tel: +12812235020">
-          (281) 223-5020
+        <Link className="text-indigo-600" to="tel: +12812354684">
+          (281) 235-4684
         </Link>{" "}
         if you require our air duct cleaning & sanitizing services for your
         property in Cypress, TX. You can also call our team for quality HVAC

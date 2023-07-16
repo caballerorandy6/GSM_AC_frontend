@@ -53,8 +53,8 @@ const AirConditioningRepair = () => {
         reliable AC technician in Cypress, TX, you now know which one to call
         for the job. To book our HVAC repair services, feel free to give us a
         call at{" "}
-        <Link className="text-indigo-600" to="tel: +12812235020">
-          (281) 223-5020
+        <Link className="text-indigo-600" to="tel: +12812354684">
+          (281) 235-4684
         </Link>{" "}
         today!
       </p>
