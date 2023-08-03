@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section id="services" className="w-full overflow-y-scroll">
+    <section id="services" className="w-full overflow-y-scroll mt-10">
       <h1 className="text-center lg:text-4xl md:text-3xl text-2xl text-[#cbb26a] font-bold">
         What Are Our Services
       </h1>
@@ -207,8 +207,8 @@ const Services = () => {
         <div className="">
           <h3 className="text-[#cbb26a] text-2xl mb-2">
             Call us at{" "}
-            <Link className="text-blue-600 text-lg" to="+12812235020">
-              (281) 223-5020
+            <Link className="text-blue-600 text-lg" to="tel: +12812354684">
+              (281) 235-4684
             </Link>{" "}
             to take advantage of our impeccable heating repair services!
           </h3>

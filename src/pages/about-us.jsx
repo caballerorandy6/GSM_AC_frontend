@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutUs = () => {
   return (
     <section id="about-us" className="min-h-screen">
@@ -61,9 +63,13 @@ const AboutUs = () => {
                 and we believe they will win us yours as well. At G S M A/C &
                 General Contractor INC., we are licensed, certified, and
                 insured. Call now to ask about our attractive discounts. Reach
-                us at (281) 223-5020 now to schedule an appointment and book our
-                heating repair services and other options. We are looking
-                forward to helping you!
+                us at{" "}
+                <Link className="text-blue-600 text-lg" to="tel: +12812354684">
+                  (281) 235-4684
+                </Link>{" "}
+                now to schedule an appointment and book our heating repair
+                services and other options. We are looking forward to helping
+                you!
               </p>
             </div>
           </div>
