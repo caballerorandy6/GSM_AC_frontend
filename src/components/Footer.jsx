@@ -79,11 +79,14 @@ const Footer = () => {
         </div>
         <div className="flex  items-center gap-4">
           <p className="text-[#cbb26a] font-bold text-base">Developed with</p>
-          <img
-            className="w-12 h-12 rounded-full"
-            src="./vite.webp"
-            alt="Vite Image"
-          />
+          <Link to="https://vitejs.dev/" target="_blank">
+            {" "}
+            <img
+              className="w-12 h-12 rounded-full"
+              src="./vite.webp"
+              alt="Vite Image"
+            />
+          </Link>
         </div>
         <p className="font-bold text-base text-center mb-8 mt-7 text-white text-opacity-80">
           GSM A/C{" "}
