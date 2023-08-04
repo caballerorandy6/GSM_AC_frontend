@@ -136,10 +136,10 @@ const ServicesNav = () => {
 
         <Link
           className="btn btn-primary btn-outline border-2 text-center justify-center items-center flex gap-2"
-          to="tel: +12812235020"
+          to="tel: +12812354684"
         >
           <FaPhone />
-          <p className="hidden sm:block">Call now +1 (281) 223-5020</p>
+          <p className="hidden sm:block">Call now +1 (281) 235-4684</p>
         </Link>
       </nav>
     </>
