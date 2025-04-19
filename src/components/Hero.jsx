@@ -55,7 +55,7 @@ const Hero = () => {
                 </p>
                 <p className="w-full mx-auto text-white text-base font-semibold bg-white p-4 rounded-md shadow mt-4 bg-opacity-10 text-opacity-80">
                   Free media filter and power surge protection with complete
-                  system replacement!!!
+                  system replacement!
                 </p>
               </div>
 
