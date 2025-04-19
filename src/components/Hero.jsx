@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="w-10/12  mx-auto mt-4 text-center">
               <div className="flex justify-center items-center gap-2 text-3xl">
                 <Link
-                  to="https://dealerportal.optimusfinancing.com/?did=4zE7mS4sI2pR7yK1wM"
+                  to="https://apply.optimusfinancing.com/EG-51065"
                   target="_blank"
                   className="btn btn-link text-sm lg:text-lg text-white text-opacity-70 hover:text-blue-500 transition-colors resorte"
                 >
